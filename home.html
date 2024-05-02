@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA WIN - Головна</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="head-container">
+            <h1>PIZZA WIN</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Головна</a></li>
+                    <li><a href="promotions.html">Акції</a></li>
+                    <li><a href="cart.html">Корзина</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="feedback.html">Відгуки</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="welcome-sec">
+            <div id="welcome-container">
+                <h2>Ласкаво просимо до нашої онлайн піцерії!</h2>
+                <p>Найкраща піца у вашому місті</p>
+                <button onclick="clicker()">ПЕРЕЙТИ ></button>
+            </div>
+        </section>
+        <section class="menu-sec">
+            <p class="section-name" id="pizza-section-name">ПІЦА</p>
+            <div class="menu-container">
+                <div class="pizza-container">
+                    <img id="mushroom-pizza" src="pics/mush-pizza.png" alt="mushroom-pizza">
+                    <p class="pizzas-name">Грибна з зеленню</p>
+                    <p class="ingredients-list">Гриби, сир, зелень, пепероні</p>
+                    <div class="price-container">
+                        <p>219 ГРН</p>
+                        <button>ЗАМОВИТИ</button>
+                    </div>
+                </div>
+                <div class="pizza-container">
+                    <img src="pics/pepperoni-pizza.png" alt="pepperoni-pizza">
+                    <p class="pizzas-name">Пепероні</p>
+                    <p class="ingredients-list">Сир, пепероні, вершковий соус</p>
+                    <div class="price-container">
+                        <p>179 ГРН</p>
+                        <button>ЗАМОВИТИ</button>
+                    </div>
+                </div>
+                <div class="pizza-container">
+                    <img src="pics/p-mushroom-pizza.png" alt="p-mushroom-pizza">
+                    <p class="pizzas-name">Грибна з ветчиною</p>
+                    <p class="ingredients-list">Гриби, сир, пепероні, ветчина</p>
+                    <div class="price-container">
+                        <p>239 ГРН</p>
+                        <button>ЗАМОВИТИ</button>
+                    </div>
+                </div>
+                <div class="pizza-container">
+                    <img id="pepper-pizza" src="pics/pizza-pepper.png" alt="pepper-pizza">
+                    <p class="pizzas-name">З перцем</p>
+                    <p class="ingredients-list">Сир, пепероні, перець халапеньйо</p>
+                    <div class="price-container">
+                        <p>199 ГРН</p>
+                        <button>ЗАМОВИТИ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-container">
+            <p>© 2024 PIZZA WIN. Усі права захищені.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

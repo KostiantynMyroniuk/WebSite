@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA WIN - Кошик</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="head-container">
+            <h1>PIZZA WIN</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Головна</a></li>
+                    <li><a href="promotions.html">Акції</a></li>
+                    <li><a href="cart.html">Корзина</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="feedback.html">Відгуки</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section-name" id="cart-h">
+            Оформлення замовлення
+        </section>
+        <section class="cart-form-section">
+            <div class="cart-application-container">
+                <div class="cart-form-container">
+                    <p>Контактні дані</p>
+                    <div id="cart-text-inputs">
+                        <input type="text" placeholder="*Ім'я" required>
+                        <input type="text" placeholder="*Номер телефону" required>
+                        <input type="text" placeholder="E-mail">
+                    </div>
+                </div>
+                <div class="cart-delivery-container">
+                    <p>Інформація про доставку</p>
+                    <div>
+                        <label>
+                            Доставка кур'єром
+                            <input type="radio" name="delivery">
+                        </label>
+                        <label>
+                            Самовивіз
+                            <input type="radio" name="delivery">
+                        </label>
+                    </div>
+                    <div class="cart-city-container">
+                        <p>Місто</p>
+                        <div id="cart-city-container-values">
+                            <select id="delivery-city">
+                                <option value="" selected disabled hidden>Виберіть місто...</option>
+                                <option value="">Вінниця</option>
+                                <option value="">Вознесенськ</option>
+                                <option value="">Липецьк</option>
+                            </select>
+    
+                            <input type="text" placeholder="Вулиця">
+    
+                            <button>ОФОРМИТИ ЗАМОВЛЕННЯ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart">
+                <p class="container-name-style">Ваше замовлення</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-container">
+            <p>© 2024 PIZZA WIN. Усі права захищені.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
