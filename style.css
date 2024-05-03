@@ -113,10 +113,6 @@ nav ul li a:hover {
 
 .menu-sec {
     margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .section-name {
@@ -134,6 +130,13 @@ nav ul li a:hover {
     font-size: 22px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.8);
+}
+
+#pizza-section-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
 
 .menu-container {
@@ -226,10 +229,10 @@ footer {
 }
 
 #img-promotions-container {
-    
     margin-top: 64px;
     display: flex;
-    gap: 40px;
+    justify-content: center;
+    gap: 80px;
 }
 
 #img-promotions-container img {
