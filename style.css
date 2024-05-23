@@ -558,7 +558,7 @@ footer {
 .feedback-title-container {
     background-image: url(pics/feedback-background.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center start;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -591,6 +591,9 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    /*  */
+    margin-bottom: 600px;
+    /*  */
     gap: 100px;
 }
 
