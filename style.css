@@ -614,6 +614,11 @@ footer {
         flex-direction: column;
     }
 
+    .feedback-title-container {
+        background-position: center;
+
+    }
+
 }
 
 @media screen and (max-width: 540px) {
@@ -628,6 +633,10 @@ footer {
 
     .feedback-title-container {
         height: 75vh;
+    }
+
+    .feedback-title-container {
+        background-position: center;
     }
 
 }

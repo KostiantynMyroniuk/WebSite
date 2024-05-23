@@ -111,10 +111,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-window.addEventListener('scroll', e => {
-    document.body.style.cssText = `--scrollTop: ${this.scrollY}`;
-})
-
 window.addEventListener('scroll', function() {
     var scrollPosition = window.pageYOffset;
     var parallaxContainer = document.querySelector('.feedback-title-container');
