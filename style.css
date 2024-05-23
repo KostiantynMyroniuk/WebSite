@@ -608,7 +608,7 @@ footer {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1630px) {
+@media screen and (max-width: 1300px) {
     
     .feedback-section {
         flex-direction: column;
@@ -616,7 +616,7 @@ footer {
 
     .feedback-title-container {
         background-position: center;
-
+        background-size: 1300px 900px;
     }
 
 }
@@ -637,6 +637,7 @@ footer {
 
     .feedback-title-container {
         background-position: center;
+        background-size: 1000px 800px;
     }
 
 }
