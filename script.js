@@ -60,7 +60,7 @@ function openPopup() {
             document.querySelector(".overlay").style.display = "block";
 
             var xhr = new XMLHttpRequest;
-            var url = "http://localhost:8080/endpoint";
+            var url = "http://localhost:8080/add";
             xhr.open("POST", url, true);
             xhr.setRequestHeader("Content-type", "application/json");
             xhr.onreadystatechange = function () {
@@ -69,7 +69,7 @@ function openPopup() {
                 }
             }
 
-            xhr.send(JSON.stringify(data));
+            xhr.send();JSON.stringify(data);
         }
     }
 }
@@ -80,4 +80,32 @@ function closePopup() {
     document.getElementById("popup").style.display = "none";
     document.querySelector(".overlay").style.display = "none";
 }
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menuButton = document.getElementById('menu-button');
+    const menuList = document.getElementById('menu-list');
+
+    menuButton.addEventListener('click', function() {
+        if (menuList.style.display === 'flex') {
+            menuList.style.display = 'none';
+        } else {
+            menuList.style.display = 'flex';
+        }
+    });
+
+    function checkWindowSize() {
+        if (window.innerWidth > 768) {
+            menuList.classList.remove('show');
+            menuList.style.display = 'flex';
+        } else {
+            menuList.style.display = 'none';
+        }
+    }
+    
+    checkWindowSize();
+    
+    window.addEventListener('resize', checkWindowSize);
+});
 
