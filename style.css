@@ -265,7 +265,7 @@ nav ul li a:hover {
     }
 
     .pizza-container {
-        width: 282px;
+        width: 220px;
     }
 
     .pizza-container p {
@@ -370,7 +370,7 @@ footer {
 
 @media screen and (max-width: 500px) {
     .promotion-container {
-        width: 282px;
+        width: 250px;
     }
 
     .promotion-container p {
