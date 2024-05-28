@@ -237,6 +237,10 @@ nav ul li a:hover {
         padding: 50px;
     }
 
+    #welcome-container p {
+        text-align: center;
+    }
+
     #welcome-container h2 {
         font-size: 22px;
         text-align: center;
@@ -251,6 +255,15 @@ nav ul li a:hover {
         height: 40px;
         margin-top: 30px;
         font-size: 14px;
+    }
+
+    .pizza-container img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .pizza-container p {
+        text-align: center;
     }
 
     .pizza-container button {
@@ -276,6 +289,7 @@ nav ul li a:hover {
     footer {
         height: 80px;
         margin-top: 40px;
+        text-align: center;
     }
 }
 
@@ -350,7 +364,7 @@ footer {
 
 @media screen and (max-width: 500px) {
     .promotion-container {
-        width: 350px;
+        width: 250px;
     }
 
     .promotion-container p {
@@ -465,20 +479,24 @@ footer {
         font-size: 20px;
     }
 
+    .cart-delivery label {
+        font-size: 15px;
+    }
+
     .cart-country select {
-        width: 340px;
+        width: 250px;
     }
 
     .cart-country input {
-        width: 318px;
+        width: 228px;
     }
 
     .cart-country button {
-        width: 340px;
+        width: 250px;
     }
 
     .cart-text-inputs input {
-        width: 318px;
+        width: 228px;
     }
 }
 
@@ -536,7 +554,7 @@ footer {
 
 @media screen and (max-width: 540px) {
     .about-address-container iframe {
-        width: 30vh;
+        width: 24vh;
         height: 20vh;
     }
 
@@ -548,7 +566,7 @@ footer {
     }
 
     .about-us-section {
-        width: 40vh; 
+        width: 26vh; 
         text-align: center;
     }
 }
@@ -616,14 +634,14 @@ footer {
 
     .feedback-title-container {
         background-position: center;
-        background-size: 1300px 900px;
+        background-size: 1300px 1100px;
     }
 
 }
 
 @media screen and (max-width: 540px) {
     .feedback-container {
-        width: 350px;
+        width: 250px;
     }
 
     .feedback-container p {
@@ -637,7 +655,7 @@ footer {
 
     .feedback-title-container {
         background-position: center;
-        background-size: 1000px 800px;
+        background-size: 1000px 900px;
     }
 
 }
