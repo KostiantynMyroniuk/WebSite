@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
     caret-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
 }
 
 
@@ -574,7 +580,6 @@ footer {
 /* feedback */
 
 .feedback-title-container {
-    background-image: url(pics/feedback-background.jpg);
     background-size: cover;
     background-position: center start;
     height: 80vh;
@@ -609,9 +614,6 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    /*  */
-    margin-bottom: 600px;
-    /*  */
     gap: 100px;
 }
 
@@ -633,7 +635,7 @@ footer {
     }
 
     .feedback-title-container {
-        background-position: center;
+        background-position: center start;
         background-size: 1300px 1100px;
     }
 
@@ -654,7 +656,7 @@ footer {
     }
 
     .feedback-title-container {
-        background-position: center;
+        background-position: start center;
         background-size: 1000px 900px;
     }
 
