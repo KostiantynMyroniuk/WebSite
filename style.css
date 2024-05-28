@@ -196,6 +196,8 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 300px;
+    height: auto;
 }
 
 .pizza-container button {
@@ -213,8 +215,7 @@ nav ul li a:hover {
 }
 
 .pizza-container img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
 
     cursor: pointer;
 }
@@ -263,9 +264,8 @@ nav ul li a:hover {
         font-size: 14px;
     }
 
-    .pizza-container img {
-        width: 220px;
-        height: 220px;
+    .pizza-container {
+        width: 282px;
     }
 
     .pizza-container p {
@@ -370,7 +370,7 @@ footer {
 
 @media screen and (max-width: 500px) {
     .promotion-container {
-        width: 250px;
+        width: 282px;
     }
 
     .promotion-container p {
