@@ -1,0 +1,9 @@
+Sitemap: https://kostyamuroniuk.github.io/WebSite/sitemap.xml
+
+User-agent: *
+Allow: /
+Disallow: /leave-feedback/
+
+User-agent: Yandex
+Disallow: /
+
